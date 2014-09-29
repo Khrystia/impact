@@ -1,0 +1,18 @@
+/* aGypsyy CSS formats */
+
+.CenterHorizontal {
+	text-align: center;
+}
+
+.LeftHorizontal {
+	text-align: left;
+}
+
+.RightHorizontal {
+	text-align: right;
+}
+
+.DividerLine {
+	height: 1px;
+	background-color: #808080;
+}

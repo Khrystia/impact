@@ -1,0 +1,231 @@
+html, body {
+  height:100%;
+  font-family: 'Lato';
+  margin-left:  -24px;
+  margin-right: -24px;
+  padding-left:  24px;
+  padding-right:  24px;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url(http://themes.googleusercontent.com/static//fonts/lato/v7/KT3KS9Aol4WfR6Vas8kNcg.woff) format('woff');
+}
+
+/* - - - - - - - Navbar - - - - - - - */
+.navbar-inverse {
+    background:transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: red;
+}
+
+/* - - - - - - - Pages - - - - - - - */
+
+/* Full Page*/
+.Fullpage {
+  margin: 0 auto;
+  width: 100%;
+  min-height:100%;
+  background-image: url('http://i.imgur.com/rAMsxJA.jpg');
+  color:#eee;
+  margin-top: -50px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Cover Page */
+.CoverPage {
+	margin-top: 22%;
+}
+
+/* Grey Page */
+.GreyPage {
+	background-color: rgb(156,154,154);
+}
+
+.section {
+  background-color: #222;
+}
+/* - - - - - - - Text - - - - - - - */
+.TitleSubHead {
+	font-size: 2em;
+	color: white;
+	text-align: center;
+}
+
+h1 {
+	font-size: 6em;
+	color: white;
+}
+
+h2 {
+	color: #FF851B;
+}
+
+h4 {
+  color: #FFFFFF;
+}
+
+#AboutText {
+	text-align: left;
+	min-width: 10%;
+}
+
+p .lead {
+	font-color: black;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-size: 3em;
+  font-weight: 300;
+  line-height: 1;
+  color: #FF851B;
+}
+
+/* Week Headers */
+.weekheader {
+  font-size: 4em;
+  text-align: center;
+}
+
+
+/* - - - - - - - Elements - - - - - - - */
+
+.3Box {
+	background: rgba(0, 0, 0, .5);
+	padding: 5% 5% 5% 5%;
+	text-align: center;
+	font-color: red;
+}
+
+/* Space out the Bootstrap <hr> more */
+.divider {
+  margin: 80px 0; 
+}
+
+/* Space out cover page bottom margin */
+.dividercover {
+  margin: 0 0 20px 0; 
+  color: white;
+}
+
+/* White out button links (all links) */
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+/* Overview Boxes */
+.overviewBoxes {
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+/* Overview Box Text */
+.overviewBoxText {
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+/* Overview Box Pics */
+.overviewBoxImage {
+	width: 150px;
+	-webkit-transition: .2s ease-in-out opacity;
+    -moz-transition: .2s ease-in-out opacity;
+    -o-transition: .2s ease-in-out opacity;
+    transition: .2s ease-in-out opacity;
+}
+.overviewBoxImage:hover {
+	opacity: .6;
+}
+
+.socialIcon {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 80px;
+}
+
+.socialIcon2 {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 71px;
+}
+
+.projectIdeaText {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.assgnPhoto {
+  width: 600px;
+  height: 100%;/*
+  margin-left: 50px;
+  margin-right: 50px;*/
+}
+
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #707070;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #000;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette {
+  padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+  overflow: hidden; /* Vertically center images part 2: clear their floats. */
+}
+.featurette-image {
+  margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+/* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.featurette-image.pull-left {
+  margin-right: 40px;
+}
+.featurette-image.pull-right {
+  margin-left: 40px;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
