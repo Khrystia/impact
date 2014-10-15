@@ -225,3 +225,8 @@ a:hover {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+.iOSSketchImages {
+  max-width: 60%;
+}
+
