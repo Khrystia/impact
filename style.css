@@ -226,6 +226,10 @@ a:hover {
   margin-right: 10px;
 }
 
+.bigImage {
+  max-width: 100%;
+}
+
 .iOSSketchImages {
   max-width: 60%;
 }
