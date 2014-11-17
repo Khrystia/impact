@@ -238,3 +238,11 @@ a:hover {
   max-width: 35%;
 }
 
+.prototype {
+  text-align:center;
+}
+
+#prototype-link {
+  color:blue;
+}
+
